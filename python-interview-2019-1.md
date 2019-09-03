@@ -12,8 +12,12 @@
 
    答案：
 
-   ```
-   
+   ```Python
+   [(a, 1), (b, 2), (c, 3), (d, 4)]
+
+{1 : 'item1', 3 : 'item9'}
+
+9
    ```
 
 2. 下面的Python代码会输出什么。
@@ -27,7 +31,8 @@
 
    答案：
 
-   ```
+   ```Python
+   42
    
    ```
 
@@ -58,7 +63,8 @@
    答案：
 
    ```Python
-   
+   1、max_dock_code =  code for key in proces.keys if key==max(prices.values)
+   2、{f'{x}' : y  (x, y)  for key, value in prices.items if value in (price for value in prices.values if value > 100)}
    ```
 
 5. 写一个函数，传入的参数是一个列表，如果列表中的三个元素`a`、`b`、`c`相加之和为`0`，就将这个三个元素组成一个三元组，最后该函数返回一个包含了所有这样的三元组的列表。例如：
